@@ -2,7 +2,7 @@ local NEVERLOSE = loadstring(game:HttpGet("https://raw.githubusercontent.com/334
 
 NEVERLOSE:Theme("original")
 
-local Window = NEVERLOSE:AddWindow(randomString(),"ใช้แรงงานผึ้ง Simulator")
+local Window = NEVERLOSE:AddWindow("ใช้แรงงานผึ้ง Simulator","ใช้แรงงานผึ้ง Simulator")
 local Notification = NEVERLOSE:Notification()
 
 Notification.MaxNotifications = 6
